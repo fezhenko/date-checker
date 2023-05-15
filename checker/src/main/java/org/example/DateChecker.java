@@ -29,8 +29,7 @@ public class DateChecker {
     private static final String AUTHORIZATION_HEADER = "Authorization";
     private static final String BEARER_PREFIX = "Bearer ";
     private static String BEARER_TOKEN =
-            "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJiMWJkNjQyNS1kOWRiLTRkMDAtYmYyNC1iNTVkNzViNTJiYzYiLCJ1bmlxdWVfbmFtZSI6ImIxYmQ2NDI1LWQ5ZGItNGQwMC1iZjI0LWI1NWQ3NWI1MmJjNiIsImp0aSI6IjAxZDE4M2ExLTlmYmYtNDMzMy05NmM4LTg1ZGRiNmUzNWVjOCIsImlhdCI6MTY4NDE0MTAyNywiZGlzcGxheU5hbWUiOiJmZXpoZW5rb0BnbWFpbC5jb20iLCJuYmYiOjE2ODQxNDEwMjcsImV4cCI6MTY4NDE0MTkyNywiaXNzIjoiaW5wb2wtZGlyZWN0IiwiYXVkIjoiaW5wb2wtZGlyZWN0In0.ybtD8B8cuZtDued4mdIcwv5WQqhVIGBsGIgh5oZEWWw";
-
+        "";
     public static void main(String[] args) {
         while (true) {
             final AtomicBoolean foundSlots = new AtomicBoolean(false);
